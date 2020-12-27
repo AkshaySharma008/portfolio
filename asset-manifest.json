@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.d6be6506.chunk.css",
+    "main.js": "/Portfolio/static/js/main.6eeebcb6.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6eeebcb6.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.dfe5280f.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.dfe5280f.js.map",
+    "static/js/2.9dcce65a.chunk.js": "/Portfolio/static/js/2.9dcce65a.chunk.js",
+    "static/js/2.9dcce65a.chunk.js.map": "/Portfolio/static/js/2.9dcce65a.chunk.js.map",
+    "static/js/3.12ef7482.chunk.js": "/Portfolio/static/js/3.12ef7482.chunk.js",
+    "static/js/3.12ef7482.chunk.js.map": "/Portfolio/static/js/3.12ef7482.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/main.d6be6506.chunk.css.map": "/Portfolio/static/css/main.d6be6506.chunk.css.map",
+    "static/js/2.9dcce65a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.9dcce65a.chunk.js.LICENSE.txt",
+    "static/media/AkshaySharma008-avatar.275eeb3e.jpeg": "/Portfolio/static/media/AkshaySharma008-avatar.275eeb3e.jpeg",
+    "static/media/styles.css": "/Portfolio/static/media/background-image.1672b939.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfe5280f.js",
+    "static/js/2.9dcce65a.chunk.js",
+    "static/css/main.d6be6506.chunk.css",
+    "static/js/main.6eeebcb6.chunk.js"
+  ]
+}
