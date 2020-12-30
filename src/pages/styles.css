@@ -497,3 +497,14 @@ ul {
 .experience-section {
   background-color: #f3f3f3;
 }
+
+.hiringPage-subheading {
+  color: white;
+  margin: auto;
+  font-weight: 500;
+}
+
+.hireButton {
+  font-size: x-large;
+  font-weight: 700;
+}

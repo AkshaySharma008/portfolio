@@ -4,6 +4,9 @@ import avatar from '../AkshaySharma008-avatar.jpeg'
 import Footer from './footer'
 import Typed from 'react-typed';
 import Experience from './experience'
+import Education from './education'
+import HireMe from './hiringPage'
+
 
 function landingPage(){
     return(
@@ -39,6 +42,8 @@ function landingPage(){
             </div>
             </div>
             <Experience/>
+            <HireMe/>
+            <Education/>
             <Footer/>
         </div>
     )

@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function experience(){
     return(
-		<div className="experience-section mt-5">
+		<div className="experience-section my-5">
       <p className="experiencePage-name text-center pt-5">EXPERIENCE</p>
       <p className="experiencePage-subheading text-center">A veriety of experience across different organizations</p>
       <VerticalTimeline className="mt-5">
