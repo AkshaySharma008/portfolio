@@ -211,6 +211,9 @@
   .avatar {
     padding-top: 2rem;
   }
+  .downArrows {
+    display: none;
+  }
 }
 
 /* Footer section */
@@ -507,4 +510,42 @@ ul {
 .hireButton {
   font-size: x-large;
   font-weight: 700;
+}
+
+.circle {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.circle .fas {
+  color: #fff;
+  animation: bounce 1.5s linear infinite;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(-25px);
+    text-shadow: 0 0 20px #fff;
+  }
+  20% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(20px);
+  }
+  60% {
+    transform: translateY(0px);
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
 }

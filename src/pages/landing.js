@@ -32,13 +32,18 @@ function landingPage(){
             <p className="landingPage-subheading text-center px-3">products to create a positive impact on the world.</p>
             <p className="landingPage-subheading text-center px-3">I write code. I love building cool stuff!</p>
             <br></br>
-            <div className="socialIcons col-md-4 m-auto">
+            <div className="socialIcons col-md-4 m-auto pb-5">
             <div className="rounded-social-buttons text-center">
                 <a href="https://www.facebook.com/sharma.akshay.me/"><span className="circle-button facebook"></span></a>
                 <a href="https://twitter.com/akshay8844"><span className="circle-button twitter"></span></a>
                 <a href="https://www.linkedin.com/in/akshaysharma008/"><span className="circle-button linkedin"></span></a>
                 <a href="https://www.instagram.com/me.akshay.sharma/"><span className="circle-button instagram"></span></a>
                 <a href="https://github.com/AkshaySharma008"><span className="circle-button github"></span></a>
+            </div>
+            </div>
+            <div className="p-4 downArrows">
+            <div className="circle">
+            <a href=""><i className="fas fa-angle-double-down"></i></a>
             </div>
             </div>
             <Experience/>
