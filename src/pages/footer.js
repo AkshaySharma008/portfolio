@@ -3,7 +3,7 @@ import './styles.css'
 
 function footer(){
     return (
-        <div className="footer-section mt-5">
+        <div className="footer-section">
         <div className="container">
             <div className="footer-cta pt-4 pb-3">
                 <div className="row">
@@ -61,7 +61,7 @@ function footer(){
                     <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div className="footer-widget">
                             <div className="footer-widget-heading">
-                                <h3  className="landingPage-heading">Submit your Interest</h3>
+                                <h3  className="landingPage-heading">Show your Interest</h3>
                             </div>
                             <div className="footer-text mb-25">
                                 <p>If you have short query or want quick response, just post it here. I will respond as soon as possible.</p>
@@ -86,7 +86,7 @@ function footer(){
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <p className="landingPage-heading" >May the source be with you :) </p>
+                        <p className="landingPage-heading" style={{color:'#f5aa09'}} >May the source be with you :) </p>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@ import './styles.css'
 import avatar from '../AkshaySharma008-avatar.jpeg'
 import Footer from './footer'
 import Typed from 'react-typed';
+import Experience from './experience'
 
 function landingPage(){
     return(
@@ -37,6 +38,7 @@ function landingPage(){
                 <a href="https://github.com/AkshaySharma008"><span className="circle-button github"></span></a>
             </div>
             </div>
+            <Experience/>
             <Footer/>
         </div>
     )
