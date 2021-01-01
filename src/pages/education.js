@@ -2,6 +2,8 @@ import React from 'react'
 import './styles.css'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import SchoolIcon from '@material-ui/icons/School';
+
 
 
 
@@ -16,7 +18,8 @@ function education(){
 				contentStyle={{ background: 'white', color: 'black' }}
 				contentArrowStyle={{ borderRight: '7px solid  white' }}
 				date="Jun'18 - Present"
-        iconStyle={{ background: '#f5aa09', color: '#fff' }}
+				iconStyle={{ background: '#f5aa09', color: '#fff' }}
+				icon={<SchoolIcon/>}
 			>
 				<h3 className="vertical-timeline-element-title">B.E - Computer Science</h3>
 				<h4 className="vertical-timeline-element-subtitle"><a href="https://www.aitpune.com/" style={{textDecoration:'none',color:'#f5aa09'}}>Army Institute of Technology</a> Pune, India</h4>
@@ -28,6 +31,8 @@ function education(){
 				className="vertical-timeline-element--work"
 				date="Apr'16 - Apr'17"
 				iconStyle={{ background: '#f5aa09', color: '#fff' }}
+				icon={<SchoolIcon/>}
+
 				>
 				<h3 className="vertical-timeline-element-title">Senior Secondary</h3>
 				<h4 className="vertical-timeline-element-subtitle"><a href="https://kvsangathan.nic.in/" style={{textDecoration:'none',color:'#f5aa09'}}>Kendriya Vidyalaya No.3 </a> Gwalior, India</h4>
@@ -37,7 +42,9 @@ function education(){
 			</VerticalTimelineElement>
 
   <VerticalTimelineElement
-    iconStyle={{ background: '#f5aa09', color: '#fff' }}
+	iconStyle={{ background: '#f5aa09', color: '#fff' }}
+	icon={<SchoolIcon/>}
+
     
   />
 </VerticalTimeline>

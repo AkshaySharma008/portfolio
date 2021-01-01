@@ -24,6 +24,8 @@ function projectPage(){
                         variant="contained"
                         color="default"
                         startIcon={<GitHubIcon />}
+                        href="https://github.com/AkshaySharma008/DoodleWithNodeSocket"
+                        target="_blank"
                     >
                         GitHub
                     </Button>{" "}
@@ -31,6 +33,7 @@ function projectPage(){
                         variant="contained"
                         color="default"
                         startIcon={<LanguageIcon />}
+                        disabled="true"
                     >
                         Demo
                     </Button>
@@ -50,6 +53,8 @@ function projectPage(){
                         variant="contained"
                         color="default"
                         startIcon={<GitHubIcon />}
+                        href="https://github.com/AkshaySharma008/instaVue"
+                        target="_blank"
                     >
                         GitHub
                     </Button>{" "}
@@ -57,6 +62,7 @@ function projectPage(){
                         variant="contained"
                         color="default"
                         startIcon={<LanguageIcon />}
+                        disabled="true"
                     >
                         Demo
                     </Button>

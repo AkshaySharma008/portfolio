@@ -5,7 +5,7 @@ import resume from '../AkshaySharma-Resume-Intern.pdf'
 
 function about(){
     return(
-        <div className="aboutPage mt-5">
+        <div className="aboutPage mt-5" id="about">
             <div className="container">
             <p className="experiencePage-name text-center pt-4">ABOUT ME</p>
                 <div className="row">
@@ -30,7 +30,7 @@ function about(){
                          developing web applications and my passion is to build and contribute to products that have a 
                          potential to create a huge positive impact on the world.<br></br><br></br>
                          I conduct classes, seminars, webinars, and took personal mentoring sessions to help students technologically & mentally.
-                        I love to contribute to the community and help others and for that, i have been working as a Secretary of <a href="https://www.aitoss.club" >OSS Club</a> and <a href="https://dsc.community.dev/army-institute-of-technology/" >DSC Lead</a> at my Campus.
+                        I love to contribute to the community and help others and for that, i have been working as a Secretary of <a href="https://www.aitoss.club" target="_blank" rel="noreferrer">OSS Club</a> and <a href="https://dsc.community.dev/army-institute-of-technology/" target="_blank" rel="noreferrer">DSC Lead</a> at my Campus.
                         </p>
                     </div>
                 </div>

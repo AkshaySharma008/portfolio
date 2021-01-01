@@ -10,6 +10,8 @@ import HireMe from './hiringPage'
 import Project from "./projects"
 import Services from "./services"
 import Collab from './collab'
+import { Link } from "react-scroll";
+
 
 
 function landingPage(){
@@ -45,11 +47,20 @@ function landingPage(){
                 <a href="https://github.com/AkshaySharma008"><span className="circle-button github"></span></a>
             </div>
             </div>
+
             <div className="p-4 downArrows">
             <div className="circle">
-            <a href="https://akshaysharma008.github.io/Portfolio/"><i className="fas fa-angle-double-down"></i></a>
+            <Link activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={500}>
+                <i className="fas fa-angle-double-down"></i></Link>
             </div>
             </div>
+
+           
             <About/>
             <Services/>
             <Experience/>

@@ -2,6 +2,7 @@ import React from 'react'
 import './styles.css'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import WorkIcon from '@material-ui/icons/Work';
 
 
 
@@ -17,6 +18,7 @@ function experience(){
 				contentArrowStyle={{ borderRight: '7px solid  white' }}
 				date="Oct'20 - present"
         iconStyle={{ background: '#f5aa09', color: '#fff' }}
+        icon={<WorkIcon/>}
 			>
 				<h3 className="vertical-timeline-element-title">SDE Intern</h3>
 				<h4 className="vertical-timeline-element-subtitle"><a href="https://computational-beta.zeblok.com/" style={{textDecoration:'none',color:'#f5aa09'}}>Zeblok Computational Inc. </a> New Jersey, US</h4>
@@ -27,7 +29,8 @@ function experience(){
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"
 				date="April'20 - July'20"
-				iconStyle={{ background: '#f5aa09', color: '#fff' }}
+        iconStyle={{ background: '#f5aa09', color: '#fff' }}
+        icon={<WorkIcon/>}
 				>
 				<h3 className="vertical-timeline-element-title">Frontend Developer Intern</h3>
 				<h4 className="vertical-timeline-element-subtitle"><a href="https://computational-beta.zeblok.com/" style={{textDecoration:'none',color:'#f5aa09'}}>Zeblok Computational Inc. </a> New Jersey, US</h4>
@@ -39,7 +42,7 @@ function experience(){
     className="vertical-timeline-element--work"
     date="Mar'20"
     iconStyle={{ background: '#f5aa09', color: '#fff' }}
-    
+    icon={<WorkIcon/>}
   >
     <h3 className="vertical-timeline-element-title">Freelancer</h3>
     <h4 className="vertical-timeline-element-subtitle"><a href="https://arkynex.com/" style={{textDecoration:'none',color:'#f5aa09'}}>Arkynex</a>, Pune India</h4>
@@ -51,7 +54,7 @@ function experience(){
     className="vertical-timeline-element--work"
     date="Jan'20 - feb'20"
     iconStyle={{ background: '#f5aa09', color: '#fff' }}
-    
+    icon={<WorkIcon/>}
   >
     <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
     <h4 className="vertical-timeline-element-subtitle"><a href="https://www.bharatrath.com/" style={{textDecoration:'none',color:'#f5aa09'}}>Bharatrath</a>, Pune India</h4>
@@ -61,7 +64,7 @@ function experience(){
   </VerticalTimelineElement>
   <VerticalTimelineElement
     iconStyle={{ background: '#f5aa09', color: '#fff' }}
-    
+    icon={<WorkIcon/>}
   />
 </VerticalTimeline>
 		</div>
