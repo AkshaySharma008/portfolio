@@ -9,7 +9,7 @@ function experience(){
     return(
 		<div className="experience-section mb-5">
       <p className="experiencePage-name text-center pt-5">EXPERIENCE</p>
-      <p className="experiencePage-subheading text-center">A veriety of experience across different organizations</p>
+      <p className="experiencePage-subheading text-center">A variety of experience across different organizations</p>
       <VerticalTimeline className="mt-5">
 			<VerticalTimelineElement
 				className="vertical-timeline-element--work"

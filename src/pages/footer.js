@@ -42,7 +42,8 @@ function footer(){
                         <div className="footer-widget">
                             <h3 className="landingPage-heading">Akshay Sharma</h3>
                             <div className="footer-text">
-                                <p>I love to connect with peoples and love to talk with them, help them, discuss with them about life aspects, technologies, adventure sports etc. </p>
+                                <p>I love to connect with people and love to talk with them, help them,
+                                     discuss with them about life aspects, technologies, adventure sports, etc. </p>
                             </div>
                             <div className="footer-social-icon">
                                 <span className="landingPage-heading">Connect with me</span>

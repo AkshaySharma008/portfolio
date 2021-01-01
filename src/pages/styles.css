@@ -17,7 +17,6 @@
 
 .landingPage-heading {
   color: whitesmoke;
-  font-family: cursive;
 }
 
 .landingPage-name {
@@ -571,7 +570,6 @@ ul {
   padding: 20px;
   background: coral;
   color: white;
-  font-family: "Playfair Display", serif;
   font-size: 25px;
   clip-path: circle(60% at 0% 0%);
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -594,7 +592,6 @@ ul {
 }
 .skillcard .description {
   padding: 20px;
-  font-family: "Nunito", sans-serif;
 }
 .skillcards-wrapper {
   display: flex;
@@ -631,7 +628,6 @@ ul {
   padding: 20px;
   background: coral;
   color: white;
-  font-family: "Playfair Display", serif;
   font-size: 25px;
   clip-path: circle(60% at 0% 0%);
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -654,33 +650,6 @@ ul {
 }
 .servicecard .description {
   padding: 20px;
-  font-family: "Nunito", sans-serif;
-}
-
-/* Circle convert into card */
-.servicecard.dot {
-  box-shadow: none;
-  clip-path: circle(19% at 24% 24%);
-  transition: all ease-in-out 0.5s;
-  background: royalblue;
-  color: white;
-}
-.servicecard.dot:hover {
-  background: darkblue;
-  clip-path: circle(100%);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-.servicecard.dot .header {
-  height: auto;
-  min-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  background: unset;
-  color: white;
-  font-family: "Playfair Display", serif;
-  font-size: 30px;
 }
 
 .projectcards-wrapper {
@@ -811,6 +780,8 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 10rem;
+    height: 10rem;
   }
   .avatar {
     padding-top: 2rem;
