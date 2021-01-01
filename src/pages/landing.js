@@ -47,7 +47,7 @@ function landingPage(){
             </div>
             <div className="p-4 downArrows">
             <div className="circle">
-            <a href=""><i className="fas fa-angle-double-down"></i></a>
+            <a href="https://akshaysharma008.github.io/Portfolio/"><i className="fas fa-angle-double-down"></i></a>
             </div>
             </div>
             <About/>

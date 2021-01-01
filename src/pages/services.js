@@ -1,5 +1,4 @@
 import React from 'react'
-import webIcon from '../web-icon.jpeg'
 import './styles.css'
 
 

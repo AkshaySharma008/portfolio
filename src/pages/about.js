@@ -11,8 +11,8 @@ function about(){
                 <div className="row">
                     <div className="col-md-3 my-2">
                         <img src={aboutImage} alt="AkshaySharma008-avatar" className="col-md-12 about-avatar"/>
-                        <span className="m-5">
-                        <a className="btn btn-dark mt-5" href={resume} download>
+                        <span className="m-5 ">
+                        <a className="btn btn-dark mt-5 resumeButton" href={resume} download>
                             <i className="fa fa-file-pdf-o" aria-hidden="true"></i><span> </span>
                                  Download Resume
                         </a>
