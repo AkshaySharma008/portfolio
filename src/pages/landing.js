@@ -3,9 +3,12 @@ import './styles.css'
 import avatar from '../AkshaySharma008-avatar.jpeg'
 import Footer from './footer'
 import Typed from 'react-typed';
+import About from './about'
 import Experience from './experience'
 import Education from './education'
 import HireMe from './hiringPage'
+import Project from "./projects"
+import Services from "./services"
 
 
 function landingPage(){
@@ -28,9 +31,9 @@ function landingPage(){
                     loop >
                 </Typed>
                 </div>
-            <p className="landingPage-subheading text-center px-3">I am a Software Engineer who is passionate about building</p>
-            <p className="landingPage-subheading text-center px-3">products to create a positive impact on the world.</p>
-            <p className="landingPage-subheading text-center px-3">I write code. I love building cool stuff!</p>
+            <p className="landingPage-subheading text-center px-3">I am a Software Developer who is passionate about building</p>
+            <p className="landingPage-subheading text-center px-3">amazing softwares and applications to help people across the world.</p>
+            <p className="landingPage-subheading text-center px-3">I write code to build useful stuff !</p>
             <br></br>
             <div className="socialIcons col-md-4 m-auto pb-5">
             <div className="rounded-social-buttons text-center">
@@ -46,9 +49,12 @@ function landingPage(){
             <a href=""><i className="fas fa-angle-double-down"></i></a>
             </div>
             </div>
+            <About/>
+            {/* <Services/> */}
             <Experience/>
-            <HireMe/>
             <Education/>
+            <HireMe/>
+            <Project/>
             <Footer/>
         </div>
     )

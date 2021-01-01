@@ -194,28 +194,6 @@
   padding-top: 6rem;
 }
 
-@media only screen and (max-width: 600px) {
-  .landingPage-name {
-    color: whitesmoke;
-    font-size: 38px;
-    font-weight: 400;
-  }
-  .landingPage-avatar {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    height: 40%;
-  }
-  .avatar {
-    padding-top: 2rem;
-  }
-  .downArrows {
-    display: none;
-  }
-}
-
 /* Footer section */
 ul {
   margin: 0px;
@@ -547,5 +525,208 @@ ul {
   }
   100% {
     transform: translateY(100px);
+  }
+}
+
+.projectPage {
+  background-color: aliceblue;
+}
+
+.Project-heading {
+  color: black;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.project-subheading {
+  font-weight: 600;
+  font-size: x-large;
+  color: #424242;
+}
+
+.aboutPage {
+  background-color: aliceblue;
+}
+
+.about-avatar {
+  border-radius: 50%;
+}
+
+.skillcard {
+  box-sizing: border-box;
+  height: auto;
+  width: calc(100% / 4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 20px;
+  border-radius: 10px;
+}
+.skillcard .header {
+  height: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: coral;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  clip-path: circle(60% at 0% 0%);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.skillcard .header h4 {
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.skillcard:hover .header {
+  clip-path: circle(100% at 50% 50%);
+  background: salmon;
+}
+.skillcard:hover .header h4 {
+  opacity: 1;
+}
+.skillcard .header h3,
+.skillcard .header h4 {
+  margin: 0 !important;
+  padding: 0;
+}
+.skillcard .description {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+}
+.skillcards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.web-icon {
+  max-height: 6rem;
+  max-width: 6rem;
+}
+
+.servicecards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicecard {
+  box-sizing: border-box;
+  height: auto;
+  width: calc(100% / 4);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 20px;
+  border-radius: 10px;
+}
+.servicecard .header {
+  height: auto;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: coral;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  clip-path: circle(60% at 0% 0%);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.servicecard .header h4 {
+  opacity: 0;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.servicecard:hover .header {
+  clip-path: circle(100% at 50% 50%);
+  background: salmon;
+}
+.servicecard:hover .header h4 {
+  opacity: 1;
+}
+.servicecard .header h3,
+.servicecard .header h4 {
+  margin: 0 !important;
+  padding: 0;
+}
+.servicecard .description {
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+/* Circle convert into card */
+.servicecard.dot {
+  box-shadow: none;
+  clip-path: circle(19% at 24% 24%);
+  transition: all ease-in-out 0.5s;
+  background: royalblue;
+  color: white;
+}
+.servicecard.dot:hover {
+  background: darkblue;
+  clip-path: circle(100%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+.servicecard.dot .header {
+  height: auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: unset;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .servicecards-wrapper {
+    flex-direction: column;
+  }
+  .servicecard {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillcards-wrapper {
+    flex-direction: column;
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .landingPage-name {
+    color: whitesmoke;
+    font-size: 38px;
+    font-weight: 400;
+  }
+  .landingPage-avatar {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 40%;
+  }
+  .avatar {
+    padding-top: 2rem;
+  }
+  .downArrows {
+    display: none;
+  }
+  .skillcard {
+    box-sizing: border-box;
+    height: auto;
+    width: 80%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    margin: 20px;
+    border-radius: 10px;
   }
 }
