@@ -41,7 +41,7 @@ function projectPage(){
                     <h3>InstaVue</h3><br></br>
                     <h5>This project is a clone of instagram developed while learning VueJS which have functionality 
                         of Create post, like and comment on posts.
-                        Users can follow others, edit their pictures while posting etc.  
+                        Users can follow others, edit pictures while posting etc.  
                     </h5>
                     <h6>TECH  STACK - VUE JS, BOOTSTRAP </h6>
                     </div>
