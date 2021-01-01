@@ -67,7 +67,7 @@ function footer(){
                             <div className="footer-text mb-25">
                                 <p>If you have short query or want quick response, just post it here. I will respond as soon as possible.</p>
                             </div>
-                            <div className="subscribe-form">
+                            <div className="subscribe-form mb-3">
                                 <form action="#">
                                     <input type="text" placeholder="Email Address" />
                                     <button><i className="fab fa-telegram-plane"></i></button>
