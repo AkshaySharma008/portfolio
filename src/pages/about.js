@@ -48,21 +48,21 @@ function about(){
                      </div>
                      <div className="skillcard">
                             <div className="header text-center">
-                            <h4>NODEJS & EXPRESS</h4>
-                            <h4>MONGO DB & SQL</h4>
-                            <h4>JEST WITH SUPERTEST</h4>
+                            <h4>NODEJS </h4>
+                            <h4>EXPRESS</h4>
+                            <h4>JEST</h4>
+                            <h4>SUPERTEST</h4>
                     </div>
                         <div className="description text-center">
-                            <h5>Backend Technologies & Database</h5>
+                            <h5>Backend Technologies & Testing</h5>
                         </div>
                      </div><div className="skillcard">
                             <div className="header text-center">
-                            <h4>SPEAKER</h4>
-                            <h4>MENTOR</h4>
-                            <h4>LEADER</h4>
+                            <h4>MONGO DB</h4>
+                            <h4>SQL</h4>
                         </div>
                         <div className="description text-center">
-                            <h5>Mentorship & Management</h5>
+                            <h5>Database Management</h5>
                         </div>
                      </div>
                 </div>

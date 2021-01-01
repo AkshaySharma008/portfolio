@@ -683,6 +683,11 @@ ul {
   font-size: 30px;
 }
 
+.serviceInfo {
+  color: whitesmoke;
+  font-size: large;
+}
+
 @media (max-width: 768px) {
   .servicecards-wrapper {
     flex-direction: column;

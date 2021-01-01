@@ -9,6 +9,7 @@ import Education from './education'
 import HireMe from './hiringPage'
 import Project from "./projects"
 import Services from "./services"
+import Collab from './collab'
 
 
 function landingPage(){
@@ -50,8 +51,9 @@ function landingPage(){
             </div>
             </div>
             <About/>
-            {/* <Services/> */}
+            <Services/>
             <Experience/>
+            <Collab/>
             <Education/>
             <HireMe/>
             <Project/>
