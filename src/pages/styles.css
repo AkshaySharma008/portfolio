@@ -486,6 +486,12 @@ ul {
 .hireButton {
   font-size: x-large;
   font-weight: 700;
+  text-decoration: none;
+  color: #000000;
+}
+
+.collab {
+  background-color: #000000;
 }
 
 .circle {
@@ -788,7 +794,7 @@ ul {
   .about-avatar {
     width: 20rem;
     height: 20rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   .downArrows {
     display: none;

@@ -40,11 +40,11 @@ function landingPage(){
             <br></br>
             <div className="socialIcons col-md-4 m-auto pb-5">
             <div className="rounded-social-buttons text-center">
-                <a href="https://www.facebook.com/sharma.akshay.me/"><span className="circle-button facebook"></span></a>
-                <a href="https://twitter.com/akshay8844"><span className="circle-button twitter"></span></a>
-                <a href="https://www.linkedin.com/in/akshaysharma008/"><span className="circle-button linkedin"></span></a>
-                <a href="https://www.instagram.com/me.akshay.sharma/"><span className="circle-button instagram"></span></a>
-                <a href="https://github.com/AkshaySharma008"><span className="circle-button github"></span></a>
+                <a href="https://www.facebook.com/sharma.akshay.me/" target="_blank" rel="noreferrer"><span className="circle-button facebook"></span></a>
+                <a href="https://twitter.com/akshay8844"  target="_blank" rel="noreferrer"><span className="circle-button twitter"></span></a>
+                <a href="https://www.linkedin.com/in/akshaysharma008/"  target="_blank" rel="noreferrer"><span className="circle-button linkedin"></span></a>
+                <a href="https://www.instagram.com/me.akshay.sharma/"  target="_blank" rel="noreferrer"><span className="circle-button instagram"></span></a>
+                <a href="https://github.com/AkshaySharma008"  target="_blank" rel="noreferrer"><span className="circle-button github"></span></a>
             </div>
             </div>
 

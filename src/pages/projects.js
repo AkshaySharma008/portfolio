@@ -32,8 +32,8 @@ function projectPage(){
                     <Button
                         variant="contained"
                         color="default"
+                        disabled={true}
                         startIcon={<LanguageIcon />}
-                        disabled="true"
                     >
                         Demo
                     </Button>
@@ -61,8 +61,8 @@ function projectPage(){
                     <Button
                         variant="contained"
                         color="default"
+                        disabled={true}
                         startIcon={<LanguageIcon />}
-                        disabled="true"
                     >
                         Demo
                     </Button>
