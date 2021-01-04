@@ -10,7 +10,7 @@ function collab(){
                 <h1 className="hiringPage-subheading  p-5"> May I help you with my knowledge ?</h1>
                 </div>
                 <div className="col-md-2 p-5">
-                <a href="https://www.linkedin.com/in/akshaysharma008/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-lg"><span className="hireButton"> HIRE ME </span></button></a>
+                <a href="https://www.linkedin.com/in/akshaysharma008/" target="_blank" rel="noreferrer"><button type="button" className="btn btn-lg"><span className="hireButton"><a href="mailto:akshaysharma30121999@gamil.com" style={{color:"black" , textDecoration:"none" , cursor:"pointer"}}>HIRE ME </a></span></button></a>
                 </div>
             </div>
         </div> 
