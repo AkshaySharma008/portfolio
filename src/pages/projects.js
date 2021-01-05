@@ -83,7 +83,7 @@ function projectPage(){
                         variant="contained"
                         color="default"
                         startIcon={<GitHubIcon />}
-                        href="https://github.com/AkshaySharma008/instaVue"
+                        disabled={true}
                         target="_blank"
                     >
                         GitHub
@@ -91,7 +91,7 @@ function projectPage(){
                     <Button
                         variant="contained"
                         color="default"
-                        disabled={true}
+                        href="https://anubhav.aitoss.club"
                         startIcon={<LanguageIcon />}
                     >
                         Demo
