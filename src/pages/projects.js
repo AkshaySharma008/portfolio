@@ -68,6 +68,38 @@ function projectPage(){
                     </Button>
                     </div>
                 </div>
+
+                <div className="projectcard dual">
+                    <div className="header">
+                    <h3>ANUBHAV</h3><br></br>
+                    <h5>This project is for the students of my college to get experinece blogs of Internships and FTE opportuinity
+                        from the 3rd year and 4th year students and alumni.
+                        This is used by almost all students to get very precise guidance for many companies.  
+                    </h5>
+                    <h6>TECH  STACK - MERN Stack, Azure  </h6>
+                    </div>
+                    <div className="description">
+                    <Button
+                        variant="contained"
+                        color="default"
+                        startIcon={<GitHubIcon />}
+                        href="https://github.com/AkshaySharma008/instaVue"
+                        target="_blank"
+                    >
+                        GitHub
+                    </Button>{" "}
+                    <Button
+                        variant="contained"
+                        color="default"
+                        disabled={true}
+                        startIcon={<LanguageIcon />}
+                    >
+                        Demo
+                    </Button>
+                    </div>
+                </div>
+
+
                 </div>
             </div>
         </div>
