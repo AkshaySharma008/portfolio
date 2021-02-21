@@ -16,7 +16,7 @@ function experience(){
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: 'white', color: 'black' }}
 				contentArrowStyle={{ borderRight: '7px solid  white' }}
-				date="Oct'20 - present"
+				date="Oct'20 - Dec'20"
         iconStyle={{ background: '#f5aa09', color: '#fff' }}
         icon={<WorkIcon/>}
 			>
