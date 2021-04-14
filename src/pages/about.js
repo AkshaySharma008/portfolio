@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.css'
 import aboutImage from '../About-Avatar.jpeg'
-import resume from '../AkshaySharma-Resume-Intern.pdf'
+import resume from '../AkshaySharma-AIT-Pune-SDE-Intern.pdf'
 
 function about(){
     return(
